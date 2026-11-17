@@ -71,6 +71,18 @@ chmod +x UNICALIB-0.1.7-x86_64.AppImage
 ./UNICALIB-0.1.7-x86_64.AppImage
 ```
 
+如需获取指定版本：
+
+```bash
+sudo apt install git-lfs
+git lfs install
+git clone https://github.com/unitreerobotics/uni_calib.git
+cd uni_calib
+git fetch --tags
+git checkout v0.1.7
+git lfs pull
+```
+
 ### 2.3 常用参数
 
 | 参数 | 说明 |
