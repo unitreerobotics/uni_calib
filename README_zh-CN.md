@@ -61,6 +61,11 @@ uni_clib/
 ### 2.2 启动
 
 ```bash
+sudo apt install git-lfs
+git lfs install
+git clone https://github.com/unitreerobotics/uni_calib.git
+cd uni_calib
+git lfs pull
 sha256sum -c UNICALIB-0.1.7-x86_64.AppImage.sha256   # 可选：校验下载是否完整
 chmod +x UNICALIB-0.1.7-x86_64.AppImage
 ./UNICALIB-0.1.7-x86_64.AppImage
