@@ -641,3 +641,20 @@ This tool uses or builds on the following open-source projects. Please refer to 
 4. Eclipse Cyclone DDS: https://github.com/eclipse-cyclonedds/cyclonedds-python
 5. TeleImager: https://github.com/unitreerobotics/teleimager
 6. unitree_ros (G1 URDF): https://github.com/unitreerobotics/unitree_ros
+
+<!-- UNICALIB_RELEASE_START -->
+## 最新版本：v0.1.7
+
+- Linux x86_64 安装包：[`UNICALIB-0.1.7-x86_64.AppImage`](https://github.com/unitreerobotics/uni_calib/releases/download/v0.1.7/UNICALIB-0.1.7-x86_64.AppImage)
+- 校验文件：[`SHA256SUMS-v0.1.7.txt`](https://github.com/unitreerobotics/uni_calib/releases/download/v0.1.7/SHA256SUMS-v0.1.7.txt)
+- [查看所有发布版本](https://github.com/unitreerobotics/uni_calib/releases)
+
+下载后运行：
+
+```bash
+chmod +x UNICALIB-0.1.7-x86_64.AppImage
+./UNICALIB-0.1.7-x86_64.AppImage
+```
+
+> 开发者可以使用已安装 Git LFS 的 `git clone` 获取仓库中的 AppImage。
+<!-- UNICALIB_RELEASE_END -->
