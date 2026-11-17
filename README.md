@@ -71,7 +71,7 @@ chmod +x UNICALIB-0.1.8-x86_64.AppImage
 ./UNICALIB-0.1.8-x86_64.AppImage
 ```
 
-如需获取指定版本：
+To obtain a specific version:
 
 ```bash
 sudo apt install git-lfs
